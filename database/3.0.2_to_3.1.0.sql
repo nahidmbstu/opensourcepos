@@ -346,3 +346,5 @@ ALTER TABLE `ospos_sales_suspended` DROP FOREIGN KEY `ospos_sales_suspended_ibfk
 ALTER TABLE `ospos_sales_suspended` DROP FOREIGN KEY `ospos_sales_suspended_ibfk_3`;
 
 DROP TABLE `ospos_sales_suspended_payments`, `ospos_sales_suspended_items_taxes`, `ospos_sales_suspended_items`, `ospos_sales_suspended`;
+
+UPDATE `ospos_app_config` SET `value` = 'en_US' where `value` = 'en' AND `key` = 'language_code';
