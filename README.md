@@ -98,12 +98,15 @@ Local install
 4. unzip and upload Open Source Point of Sale files to web server
 5. Modify application/config/database.php and modify credentials if needed to connect to your database
 6. Modify application/config/config.php encryption key with your own
+8. run ::  composer install to have the vendor folder for windows
 7. Go to your point of sale install public dir via the browser
 8. LOGIN using
   * username: admin 
   * password: pointofsale
 9. Enjoy
 10. Oops an issue? Please make sure you read the FAQ, wiki page and you checked open and closed issue on GitHub. PHP display_errors is disabled by default. Create an application/config/.env file from the .env.example to enable it in a development environment. 
+
+
 
 Local install using Docker
 --------------------------
